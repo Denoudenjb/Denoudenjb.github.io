@@ -33,7 +33,7 @@ html{
     }
 
       #about {
-        background: url("Wallpapers/Map.png") no-repeat center center fixed; 
+        background: url("Wallpapers/map.png") no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -44,7 +44,7 @@ html{
 
 
       #characters {
-        background: url("Wallpapers/Party.Jpg") no-repeat center center fixed; 
+        background: url("Wallpapers/Party.jpg") no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -63,7 +63,7 @@ html{
       }
 
       #contact {
-        background: url("Wallpapers/Contact.jpg") no-repeat center center fixed; 
+        background: url("Wallpapers/Adventure.jpeg") no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
