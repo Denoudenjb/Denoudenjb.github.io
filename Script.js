@@ -1,4 +1,3 @@
-
 // get the list of navigation links and sections
 const navLinks = document.querySelectorAll('.Sidenavigation a');
 const sections = document.querySelectorAll('.ContentSection');
