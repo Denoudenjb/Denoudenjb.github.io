@@ -84,4 +84,56 @@ window.addEventListener('scroll', debounce(() => {
 }));
 
 
-/// / test test teste testestet
+///    SCROLL DOWN BUTTON JS              ///
+// Set the default scroll button text to "⬇"
+document.getElementById('scrollButton').textContent = '⬇';
+
+document.getElementById('scrollButton').addEventListener('click', function() {
+  const sections = document.getElementsByClassName('ContentSection');
+  let currentSectionIndex = -1;
+
+  // Find the index of the currently active section
+  for (let i = 0; i < sections.length; i++) {
+    if (sections[i].classList.contains('active')) {
+      currentSectionIndex = i;
+      break;
+    }
+  }
+
+  // If a valid section index is found
+  if (currentSectionIndex > -1) {
+    // If it's not the last section, scroll to the next section
+    if (currentSectionIndex < sections.length - 1) {
+      const nextSection = sections[currentSectionIndex + 1];
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+
+      // Remove 'active' class from the current section and add it to the next section
+      sections[currentSectionIndex].classList.remove('active');
+      nextSection.classList.add('active');
+
+      // Update the scroll button text to "⬆️" if reaching the last section
+      if (currentSectionIndex + 1 === sections.length - 1) {
+        document.getElementById('scrollButton').textContent = '⬆️';
+      }
+    } else {
+      // If it's the last section, scroll to the top section
+      const topSection = sections[0];
+      topSection.scrollIntoView({ behavior: 'smooth' });
+
+      // Remove 'active' class from the current section and add it to the top section
+      sections[currentSectionIndex].classList.remove('active');
+      topSection.classList.add('active');
+
+      // Toggle the scroll button text between "⬇" and "⬆️"
+      const scrollButton = document.getElementById('scrollButton');
+      if (scrollButton.textContent !== '⬆️') {
+        // If current button text is not "⬆️", change it to "⬆️"
+        scrollButton.textContent = '⬆️';
+      } else {
+        // If current button text is "⬆️", change it back to "⬇"
+        scrollButton.textContent = '⬇';
+      }
+    }
+  }
+});
+
