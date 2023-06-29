@@ -8,9 +8,8 @@ html{
   scroll-behavior: smooth;
 }
 
+/* placeholder for sections */
 
-
-    
 .ContentSection {
 			height: 100vh;
             scroll-snap-align: center;
@@ -108,7 +107,8 @@ html{
   }
 
 /* end placeholder for body/sections */
-/* SIDENAVIGATION SETTINGS */
+
+/* Navigation SETTINGS */
 
 .Sidenavigation {
   position: fixed;
@@ -155,7 +155,7 @@ text-shadow:
 }
 
 .Sidenavigation a.active {
-  font-size: 25px; /* Modified */
+  font-size: 25px; 
   padding-left: 25px;
     text-shadow:
       0 0 7px #cc0808,
@@ -176,6 +176,14 @@ text-shadow:
  font-family: FontAwesome;
  content: "\f6cf";
  margin-right: 10px;
+}
+
+.Sidenavigation select {
+  display: none;
+}
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
 }
 
 /* Modified *//* Modified *//* Modified */
