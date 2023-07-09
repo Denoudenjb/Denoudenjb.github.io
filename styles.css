@@ -56,7 +56,7 @@ nav ul li a.active {
 }
 
 #home {
-    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/DragonFight.jpg") no-repeat center center/cover;
+    background: url("/Wallpapers/DragonFight.jpg") no-repeat center center/cover;
 }
 
 .textbox {
@@ -67,11 +67,11 @@ nav ul li a.active {
 }
 
 #about {
-    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Map.jpg") no-repeat center center/cover;
+    background: url("/Wallpapers/Map.jpg") no-repeat center center/cover;
 }
 
 #characters {
-    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Party.jpg") no-repeat center center/cover;
+    background: url("/Wallpapers/Party.jpg") no-repeat center center/cover;
 }
 
 #characters img {
@@ -167,11 +167,11 @@ nav ul li a.active {
 }
 
 #adventures {
-    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Adventure.jpeg") no-repeat center center/cover;
+    background: url("/Wallpapers/Adventure.jpeg") no-repeat center center/cover;
 }
 
 #contact {
-    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Contact.jpg") no-repeat center center/cover;
+    background: url("/Wallpapers/Contact.jpg") no-repeat center center/cover;
 }
 
 #contact .textbox a {
