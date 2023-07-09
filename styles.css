@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+nav {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transform: translateY(0);
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+nav ul li a.active {
+    color: yellow;
+}
+
+#home {
+    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/DragonFight.jpg") no-repeat center center/cover;
+}
+
+.textbox {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Map.jpg") no-repeat center center/cover;
+}
+
+#characters {
+    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Party.jpg") no-repeat center center/cover;
+}
+
+#characters img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        width: 90%;
+    }
+    .tile {
+        flex-direction: column;
+    }
+    .tile.active {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.tile {
+    display: none;
+    text-align: center;
+}
+
+.character-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.character-description {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.character-stats {
+    margin-bottom: 10px;
+}
+
+.character-stats p {
+    margin: 0;
+}
+
+.read-more {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: darkblue;
+}
+
+
+.tile.active {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 3em; /* increase font-size for larger arrows */
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.arrow-left {
+    left: -30px; /* adjust as necessary */
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    right: -30px; /* adjust as necessary */
+    transform: translateY(-50%);
+}
+
+#adventures {
+    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Adventure.jpeg") no-repeat center center/cover;
+}
+
+#contact {
+    background: url("C:/Users/denou/Desktop/Quick/Wallpapers/Contact.jpg") no-repeat center center/cover;
+}
+
+#contact .textbox a {
+    color: white;
+    text-decoration: none;
+}
