@@ -56,7 +56,7 @@ nav ul li a.active {
 }
 
 #home {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/DragonFight.jpg") no-repeat center center/cover;
+    background: url("/images/dragonfight.webp") no-repeat center center/cover;
 }
 
 .textbox {
@@ -67,11 +67,11 @@ nav ul li a.active {
 }
 
 #about {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/map.png") no-repeat center center/cover;
+    background: url("images/adventure.webp") no-repeat center center/cover;
 }
 
 #characters {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/Party.webp") no-repeat center center/cover;
+    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/party.webp") no-repeat center center/cover;
 }
 
 #characters img {
@@ -167,11 +167,11 @@ nav ul li a.active {
 }
 
 #adventures {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/Adventure.jpeg") no-repeat center center/cover;
+    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/adventure.webp") no-repeat center center/cover;
 }
 
 #contact {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/Contact.jpg") no-repeat center center/cover;
+    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/contact.webp") no-repeat center center/cover;
 }
 
 #contact .textbox a {
