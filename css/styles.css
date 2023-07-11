@@ -67,11 +67,11 @@ nav ul li a.active {
 }
 
 #about {
-    background: url("images/adventure.webp") no-repeat center center/cover;
+    background: url("/images/adventure.webp") no-repeat center center/cover;
 }
 
 #characters {
-    background: url("./images/party.webp") no-repeat center center/cover;
+    background: url("/images/party.webp") no-repeat center center/cover;
 }
 
 #characters img {
@@ -167,11 +167,11 @@ nav ul li a.active {
 }
 
 #adventures {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/adventure.webp") no-repeat center center/cover;
+    background: url("/images/images/adventure.webp") no-repeat center center/cover;
 }
 
 #contact {
-    background: url("https://github.com/Denoudenjb/Denoudenjb.github.io/blob/main/images/contact.webp") no-repeat center center/cover;
+    background: url("/images/images/contact.webp") no-repeat center center/cover;
 }
 
 #contact .textbox a {
