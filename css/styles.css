@@ -178,3 +178,33 @@ nav ul li a.active {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* DRAGONTEXT  */
+@font-face {
+    font-family: 'Dragon Text';
+    src: url('/fonts/dragontext.ttf') format('truetype');
+}
+
+#home .textbox h1 {
+    font-family: 'Dragon Text', Times New Roman, serif;
+    color: darkred;
+    animation: fadeOut 4s infinite;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        font-family: 'Dragon Text', Times New Roman, serif;
+    }
+    50%, 99% {
+        opacity: 0;
+        font-family: 'Dragon Text', Times New Roman, serif;
+    }
+    100% {
+        opacity: 1;
+        font-family: 'Times New Roman', serif;
+    }
+}
