@@ -1,82 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <title>Xorvinthaal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
+  <div id="container">
+    <div id="left-sidediv">
+      <div class="left-subdiv" id="left-namediv">
+        <h1>Blake Denouden</h1>
+        <h2>Data Operations </h2>
+        <p>I build accessible, inclusive products and digital experiences for the web and Sharepoint.</p>
+      </div>
+      <div class="left-subdiv" id="left-navdiv">
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#characters">Characters</a></li>
-                <li><a href="#adventures">Adventures</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <a href="#right-infodiv">About</a>
+          <a href="#right-jobdiv">Experience</a>
+          <a href="#right-projectdiv">Projects</a>
         </nav>
-    
-    <section id="home">
-        <div class="textbox">
-            <h1>Xorvinthaal</h1>
-        </div>
-    </section>
-    <section id="about">
-        <div class="textbox">
-            <p>Welcome to Xorvinthaal, a mystical land of magic and adventure. Here, brave souls embark on quests to uncover the secrets of the world.</p>
-        </div>
-    </section>
-    <section id="characters">
-        <div class="carousel">
-            <div class="tile active">
-                <img src="./images/characters/Wizard.jpg" alt="Wizard">
-                <h3 class="character-name">Wizard</h3>
-                <p class="character-description">A master of arcane magic. Uses spells to deal damage and control the battlefield.</p>
-                <div class="character-stats">
-                    <p><strong>Strength:</strong> 8</p>
-                    <p><strong>Intelligence:</strong> 18</p>
-                    <p><strong>Agility:</strong> 12</p>
-                </div>
-                <a class="read-more" href="./images/characters/Wizard.jpg">Read More</a>
-                <a id="arrow-left" class="arrow arrow-left">&#8249;</a>
-                <a id="arrow-right" class="arrow arrow-right">&#8250;</a>
-                </div>
-                
-            <div class="tile">
-                <img src="./images/characters/Warrior.webp" alt="Warrior">
-                <h3 class="character-name">Warrior</h3>
-                <p class="character-description">A Strong fighter.</p>
-                <div class="character-stats">
-                    <p><strong>Strength:</strong> 8</p>
-                    <p><strong>Intelligence:</strong> 18</p>
-                    <p><strong>Agility:</strong> 12</p>
-                </div>
-                <a class="read-more" href="./images/characters/Warrior.webp">Read More</a>
-                </div>
+      </div>
+      
+      <div class="left-subdiv" id="left-socialdiv">
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com/example" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://github.com/example" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      
 
-            <div class="tile">
-                <img src="./images/characters/Ranger.webp" alt="Ranger">
-                <h3 class="character-name">Ranger</h3>
-                <p class="character-description">Expert in wilderness and marksmanship.</p>
-                <div class="character-stats">
-                    <p><strong>Strength:</strong> 8</p>
-                    <p><strong>Intelligence:</strong> 18</p>
-                    <p><strong>Agility:</strong> 12</p>
-                </div>
-                <a class="read-more" href="./images/characters/Ranger.webp">Read More</a>
-                </div>
-    </section>
-    <section id="adventures">
-        <div class="textbox">
-            <h2>The Adventure so far...</h2>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="textbox">
-            <a href="mailto:youremail@example.com">Click here to send me a message</a>
-        </div>
-    </section>
-    <script src="/js/script.js"></script>
+
+
+    </div>
+    <div id="right-sidediv">
+      <div class="right-subdiv" id="right-infodiv">
+        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and Ive had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation. <br><br>My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.
+            <br><br>When Im not at the computer, Im usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds
+            .</p>
+      </div>
+      
+      <div class="right-subdiv" id="right-jobdiv">
+        <h2>Experience</h2>
+        <ol>
+          <li onclick="window.location.href='https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management'">
+            <div class="date-div">
+              <p class="dates">2021 - Present</p>
+            </div>
+            <h3>Data Operations</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Managing and optimizing the flow of information and knowledge within organization. Analyze data for continuous improvement, and ensuring compliance with relevant policies and guidelines.</p>
+          </li>
+          <li onclick="window.location.href='https://www.glassdoor.com/Salary/US-Air-Force-Unit-Program-Coordinator-Salaries-E41283_D_KO13,37.htm'">
+            <div class="date-div">
+              <p class="dates">2019 - 2021</p>
+            </div>
+            <h3>Unit Program Coordinator</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id diam mauris.</p>
+          </li>
+          <li onclick="window.location.href='https://www.airforce.com/careers/logistics-and-administration/administration'">
+            <div class="date-div">
+              <p class="dates">2018 - 2019</p>
+            </div>
+            <h3>Section Administration Lead</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id diam mauris.</p>
+          </li>
+        </ol>
+      </div>
+      
+
+  
+      <div class="right-subdiv" id="right-projectdiv">
+        <h2>Projects:</h2>
+        <p><a href="/projects/project1/index2.html">Projects: 1</a></p>
+        <p>Projects: 2</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+

@@ -1,0 +1,163 @@
+body {
+  font-family: 'Fira Mono', monospace;
+  background-image: url("C:/Users/denou/Desktop/SelfSell/images/abstract.jpg");
+  margin: 0;
+  color: #8892b0;
+}
+
+#container {
+  display: flex;
+  justify-content: right;
+  padding: 0 100px;
+}
+
+#left-sidediv {
+  margin-top: 10vh;
+  display: absolute;
+  flex-direction: column;
+  width: 30%;
+}
+
+#right-sidediv {
+  margin-top: 10vh;
+  margin-right: 20vh;
+  display: block;
+  flex-direction: column;
+  width: 35%;
+}
+
+#left-namediv h1 {
+  color: #737a8f;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#left-namediv h2, #right-jobdiv h2, #right-projectdiv h2 {
+  color: #ccd6f6;
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.left-subdiv p, .right-subdiv p {
+  margin-top: 1em;
+  line-height: 1.5;
+}
+
+.left-subdiv nav a, #right-jobdiv a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.left-subdiv nav a:hover, #right-jobdiv a:hover {
+  color: #ccd6f6;
+}
+
+#right-sidediv {
+  padding-left: 50px;
+}
+
+#left-navdiv nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#left-navdiv a.active {
+  color: #ccd6f6;
+}
+
+
+#left-socialdiv {
+  margin-top: 20px; /* Increase the margin-top value to move the icons farther down */
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 30%; /* Add margin-top for spacing */
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ccd6f6;
+}
+
+.social-icons i {
+  font-size: 24px; /* Increase the font-size for larger icons */
+}
+
+
+
+
+
+
+#right-jobdiv a {
+  display: inline-block;
+  border: 1px solid #64ffda;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  transition: all 0.3s ease;
+}
+
+#right-jobdiv a:hover {
+  background-color: #64ffda;
+  color: #020c1b;
+}
+
+#right-jobdiv ol {
+  list-style: none;
+  padding: 0;
+}
+
+#right-jobdiv p {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 20;
+}
+
+.date-div {
+  display: inline-block;
+  position: absolute;
+  left: 0%
+}
+
+.right-subdiv li {
+  position: relative;
+  padding-left: 160px; /* Adjust this value as needed */
+  padding-bottom: 5%;
+}
+
+.right-subdiv li:hover {
+  background: rgba(49, 116, 179, 0.5);
+  border: 1px solid rgba(49, 116, 179, 0.5);
+}
+
+#right-jobdiv h3 {
+  font-size: 1.5em;
+  color: #64ffda;
+  margin:0;
+  padding:0;
+}
+
+#right-jobdiv h4 {
+  font-size: 1.2em;
+  color: #ccd6f6;
+  margin:0;
+  padding:0;
+}
+
+#right-jobdiv .dates {
+  font-size: 1em;
+  color: #a8b2d1;
+  margin:0;
+  padding:0;
+}
