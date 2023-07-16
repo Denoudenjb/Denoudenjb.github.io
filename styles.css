@@ -35,7 +35,7 @@ body {
 #left-namediv h2, #right-jobdiv h2, #right-projectdiv h2 {
   color: #ccd6f6;
   font-size: 2em;
-  margin-top: 0.5em;
+  margin-top: 0em
 }
 
 .left-subdiv p, .right-subdiv p {
