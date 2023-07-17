@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: right;
   padding: 0 100px;
+  height: 100vh;
+  overflow: auto;
 }
 
 #left-sidediv {
@@ -19,7 +21,6 @@ body {
   flex-direction: column;
   width: 30%;
 }
-
 
 #right-sidediv {
   margin-top: 10vh;
