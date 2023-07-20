@@ -1,6 +1,6 @@
 body {
   font-family: 'Fira Mono', monospace;
-  background-image: url("/images/abstract.jpg");
+  background-color: rgba(30,41,59,.5);
   margin: 0;
   color: #8892b0;
 }
@@ -169,15 +169,15 @@ body {
 .tech-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 5px;
+  margin-top: 5px;
 }
 
 .tech-button {
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: #64ffda;
   border: none;
-  border-radius: 5px;
+  border-radius: 30%;
   color: #020c1b;
   font-family: 'Fira Mono', monospace;
   font-size: 1em;
@@ -186,4 +186,20 @@ body {
 
 .tech-button:hover {
   background-color: #ccd6f6;
+}
+
+#cursor {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #64ffda;
+  border-radius: 50%;
+  background: rgba(100, 255, 218, 0.1);
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transition: transform 0.2s ease-out;
+  transform: scale(1);
 }
