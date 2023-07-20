@@ -188,18 +188,36 @@ body {
   background-color: #ccd6f6;
 }
 
-#cursor {
-  pointer-events: none;
-  position: absolute;
+#app {
+  overflow: hidden;
+  touch-action: pan-up;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+}
+
+#app h1 {
+  --fontSize: 60px;
+  --lineHeight: 80px;
+  width: auto;
+  height: calc(2 * var(--lineHeight));
+  line-height: var(--lineHeight);
+  margin: calc(50vh - var(--lineHeight)) auto 0;
+  font-size: var(--fontSize);
+  text-transform: uppercase;
+}
+
+#app a {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+#app canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
   top: 0;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #64ffda;
-  border-radius: 50%;
-  background: rgba(100, 255, 218, 0.1);
-  mix-blend-mode: difference;
-  z-index: 9999;
-  transition: transform 0.2s ease-out;
-  transform: scale(1);
 }
