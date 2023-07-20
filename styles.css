@@ -1,8 +1,7 @@
 body {
   font-family: 'Fira Mono', monospace;
-  background-color: rgba(30,41,59,.5);
+  background-color: rgba(26, 38, 56, 0.5);
   margin: 0;
-  color: #8892b0;
 }
 
 #container {
