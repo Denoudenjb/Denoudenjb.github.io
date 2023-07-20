@@ -165,3 +165,25 @@ body {
   margin:0;
   padding:0;
 }
+
+.tech-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tech-button {
+  padding: 10px 20px;
+  background-color: #64ffda;
+  border: none;
+  border-radius: 5px;
+  color: #020c1b;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.tech-button:hover {
+  background-color: #ccd6f6;
+}
