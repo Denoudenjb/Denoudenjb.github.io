@@ -42,6 +42,15 @@ body {
   margin-top: 0em
 }
 
+#right-projectdiv a {
+  color: #ffffff; /* Set the color of the links */
+  text-decoration: underline; /* Add underline to the links */
+}
+
+#right-projectdiv a:hover {
+  color: #ffcc00; /* Set the color when hovering over the links */
+}
+
 .left-subdiv p, .right-subdiv p {
   margin-top: 1em;
   line-height: 1.5;
