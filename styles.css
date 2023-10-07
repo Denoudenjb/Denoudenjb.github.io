@@ -48,7 +48,7 @@ body {
 }
 
 #right-projectdiv a:hover {
-  color: #ffcc00; /* Set the color when hovering over the links */
+  color: #63a2c7; /* Set the color when hovering over the links */
 }
 
 .left-subdiv p, .right-subdiv p {
@@ -186,7 +186,7 @@ body {
   padding: 5px 10px;
   background-color: #64ffda;
   border: none;
-  border-radius: 30%;
+  border-radius: 20px;
   color: #020c1b;
   font-family: 'Fira Mono', monospace;
   font-size: 1em;
