@@ -1,58 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Xorvintaal</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="Carousel.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/7d1f9abfd9.js"></script>
-</head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+</head>
 <body>
 
-  <audio controls autoplay loop >
-    <source src="Fallen_Guardian_Soundtrack.mp3" type="audio/mpeg">
-</audio>
+  <div id="container">
+    <div id="left-sidediv">
+      <div class="left-subdiv" id="left-namediv">
+        <h1>Blake Denouden</h1>
+        <h2>Data Operations </h2>
+        <p>I build accessible, inclusive products and digital experiences for the web and Sharepoint.</p>
+      </div>
+      <div class="left-subdiv" id="left-navdiv">
+        
+        <nav>
+          <a href="#right-infodiv">About</a>
+          <a href="#right-jobdiv">Experience</a>
+          <a href="#right-projectdiv">Projects</a>
+        </nav>
+      </div>
+      
+      <div class="left-subdiv" id="left-socialdiv">
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com/BlakeDenouden/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://github.com/Denoudenjb" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/j-blake-denouden-2b6b48172/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div id="right-sidediv">
+      <div class="right-subdiv" id="right-infodiv">
+        <p>I've always been fascinated with computers, I grew up learning to code HTML/CSS Myspace Snippets. Fast-forward to today, and I'm a Air Force IT infastructure Manager and Sharepoint Site Collection Administrator. <br><br>My main focus these days is building and leading projects along with Sharepoint design. In my free time I'm learning to improve my code and discover solutions to problems I didn't know I had.
+            <br><br>When Im not at the computer, Im usually hanging out with my wife, kid and two dogs, we can often be found at one of the local cafe's drinking coffee
+            .</p>
+      </div>
+      
+      <div class="right-subdiv" id="right-jobdiv">
+        <h2>Experience</h2>
+        <ol>
+          <li onclick="window.location.href='https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management'">
+            <div class="date-div">
+              <p class="dates">2022 - Present</p>
+            </div>
+            <h3>Data Operations</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Managing and optimizing the flow of information and knowledge within organization. Analyze data for continuous improvement, and ensuring compliance with relevant policies and guidelines.</p>
+            <div class="tech-buttons">
+              <button class="tech-button">Sharepoint</button>
+              <button class="tech-button">CSS</button>
+              <button class="tech-button">Power Automate</button>
+            </div>
+          
+          </li>
+          <li onclick="window.location.href='https://www.glassdoor.com/Salary/US-Air-Force-Unit-Program-Coordinator-Salaries-E41283_D_KO13,37.htm'">
+            <div class="date-div">
+              <p class="dates">2020 - Present</p>
+            </div>
+            <h3>Unit Program Coordinator</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Administers programs and serves as the resident subject matter expert on a large variety of programs.</p>
+            <button class="tech-button">Executive</button>
+            <button class="tech-button">Networking</button>
+          </li>
 
-  <div class="Sidenavigation">
-    <ul>
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#characters">Characters</a></li>
-      <li><a href="#adventures">Adventures</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+          <li onclick="window.location.href='https://www.airforce.com/careers/logistics-and-administration/administration'">
+            <div class="date-div">
+              <p class="dates">2017 - 2022</p>
+            </div>
+            <h3>Section Administration Lead</h3>
+            <h4>US Air Force Reserves</h4>
+            <p>Administers programs and serves as the resident subject matter expert on a large variety of programs.</p>
+          </li>
+        </ol>
+      </div>
+      
+
+      <div class="right-subdiv" id="right-projectdiv">
+        <h2>Projects: --Links being updated</h2>
+        <p><a href="https://github.com/Denoudenjb/TeamTravelWebsite">Project 1: College - Agile Coding Travel Website</a></p>
+        <p><a href="https://github.com/Denoudenjb/WSU_CollabApp">Project 2: Android/IOS Phone App - Coded in flutter/Dart</a></p>
+        <p><a href="#">Project 2: Legacy Sharepoint Code snippets</a></p>
+        <p><a href="/projects/project1/index2.html">Forgotten Realms D&D Website</a></p>
+
+
+        
+      </div>
+    </div>
   </div>
-
-
-  <div id="home" class="ContentSection active">
-    <p class="DragonFont" style="font-size:5vw">Xorvinthaal</p>
-    <p class="Noto Sans" style="font-size:4vw" >Xorvinthaal<br>Dragon's Gambit </p>
-  </div>
-
-  <div id="about" class="ContentSection">
-
-  </div>
-  
-  <div id="characters" class="ContentSection">
-    <p>Meet the characters from my latest book.</p>
-  </div>
-
-  <div id="adventures" class="ContentSection">
-    <p>Read about my latest adventures and travels.</p>
-  </div>
-
-  <div id="contact" class="ContentSection">
-    <p>Send me a message or connect with me on social media.</p>
-  </div>
-
-  <script src="Script.js"></script>
-
 </body>
 </html>
+
+
