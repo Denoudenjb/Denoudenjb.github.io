@@ -33,7 +33,7 @@ body {
 
 #container {
   display: flex;
-  justify-content: right;
+  justify-content: space-between; /* Adjust this according to your specific layout */
   padding: 0 100px;
   height: 100vh;
   overflow: auto;
