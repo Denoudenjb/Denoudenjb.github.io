@@ -48,7 +48,8 @@ body {
   width: 30%;
 }
 
-#right-sidediv { 
+#right-sidediv {
+  margin-top: 10vh;
   margin-right: 20vh;
   display: block;
   flex-direction: column;
