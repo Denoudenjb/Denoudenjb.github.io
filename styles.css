@@ -14,7 +14,7 @@ body {
 
   #left-sidediv, #right-sidediv {
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 0;
     text-align: center;
   }
 
