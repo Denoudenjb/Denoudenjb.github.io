@@ -14,7 +14,7 @@ body {
 
   #left-sidediv, #right-sidediv {
     width: 100%;
-    margin-top: 0;
+    margin-top: 0px;
     text-align: center;
   }
 
@@ -42,7 +42,7 @@ body {
 #left-sidediv {
   position: sticky;
   top: 0;
-  margin-top: 10vh;
+  margin-top: 0px;
   display: block;
   flex-direction: column;
   width: 30%;
