@@ -56,6 +56,10 @@ body {
   width: 35%;
 }
 
+#left-namediv {
+  margin-top: 10vh
+}
+
 #left-namediv h1 {
   color: #737a8f;
   font-size: 3em;
