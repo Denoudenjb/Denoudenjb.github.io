@@ -8,7 +8,7 @@ $(window).on('scroll', function() {
         bottom = top + $(this).outerHeight();
 
     if (cur_pos >= top && cur_pos <= bottom) {
-      $('.nav a').removeClass('active');
+      $('#left-navdiv a').removeClass('active');
       $('#left-navdiv a[href="#'+$(this).attr('id')+'"]').addClass('active');
     }
   });
