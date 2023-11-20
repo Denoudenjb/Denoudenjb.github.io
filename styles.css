@@ -104,24 +104,20 @@ body {
 }
 
 #left-navdiv a {
-  color: #64ffda;
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
   position: relative;
 }
 
 #left-navdiv a.active {
-  color: #64ffda;
-  border-bottom: 2px solid #64ffda; /* Add an underline for the active link */
+  color: #ccd6f6"
 }
 
-#left-navdiv a:not(.active):hover::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -2px; /* Adjust the distance from the link */
-  height: 2px; /* Adjust the thickness of the line */
-  background-color: #64ffda;
+#left-navdiv a.active::before {
+  font-family: 'Font Awesome'; /* Specify the Font Awesome font family */
+  content: '\f068'; /* Use the Font Awesome code for the minus icon */
+  margin-right: 10px;
 }
 
 #left-socialdiv {
