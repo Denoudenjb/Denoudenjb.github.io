@@ -122,7 +122,7 @@ body {
 
 #left-socialdiv {
   margin-top: auto; /* Set margin-top to auto to push it to the bottom */
-  margin-bottom: 20px; /* Add margin-bottom to create space between the social icons and the bottom */
+  bottom: 0;
 }
 
 .social-icons {
