@@ -125,17 +125,28 @@ body {
   color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
   position: relative;
-  font-size: 2em; /* Adjust the font size as needed */
+  font-size: 1.5em; /* Adjust the font size as needed */
 }
 
 #left-navdiv a.active {
   color: #ccd6f6
 }
 
+#left-navdiv nav a:hover::before,
 #left-navdiv a.active::before {
+  color: #64ffda; /* Change the color when hovering or active */
+}
+
+#left-navdiv nav a:hover {
+  color: #ccd6f6;
+}
+
+#left-navdiv nav a::before {
   font-family: 'Font Awesome'; /* Specify the Font Awesome font family */
   content: '\f068'; /* Use the Font Awesome code for the minus icon */
   margin-right: 10px;
+  color: transparent; /* Set the initial color of the icon to transparent */
+  transition: color 0.3s ease; /* Add transition effect for color change */
 }
 
 #left-socialdiv {
