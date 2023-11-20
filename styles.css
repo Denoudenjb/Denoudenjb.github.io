@@ -34,7 +34,7 @@ body {
 
 #container {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end; /* Change to flex-end */
   padding: 0 100px;
   height: 100vh;
   overflow: auto;
