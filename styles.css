@@ -107,18 +107,17 @@ body {
 
 
 #left-socialdiv {
-  margin-top: 20px; /* Increase the margin-top value to move the icons farther down */
+  margin-top: auto; /* Set margin-top to auto to push it to the bottom */
 }
-
 .social-icons {
   list-style: none;
   padding: 0;
   display: flex;
-  margin-top: 30%; /* Add margin-top for spacing */
+  margin-top: 10%; /* Add margin-top for spacing */
 }
 
 .social-icons li {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .social-icons a {
@@ -128,10 +127,11 @@ body {
 
 .social-icons a:hover {
   color: #ccd6f6;
+  font-size: 28px;
 }
 
 .social-icons i {
-  font-size: 24px; /* Increase the font-size for larger icons */
+  font-size: 28px; /* Increase the font-size for larger icons */
 }
 
 #right-jobdiv a {
