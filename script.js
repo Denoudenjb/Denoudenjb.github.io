@@ -23,14 +23,44 @@ $(window).on('scroll', function() {
   });
   
 
-  function update(e){
-    var x = e.clientX || e.touches[0].clientX;
-    var y = e.clientY || e.touches[0].clientY;
+
+
+
   
-    document.documentElement.style.setProperty('--cursorX', x + 'px');
-    document.documentElement.style.setProperty('--cursorY', y + 'px');
-  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const cursor = document.querySelector('.cursor');
+    const cursorInner = document.querySelector('.cursor-inner');
   
-  document.addEventListener('mousemove', update);
-  document.addEventListener('touchmove', update);
+    document.addEventListener('mousemove', function (e) {
+      const x = e.clientX;
+      const y = e.clientY;
+  
+      cursor.style.left = x + 'px';
+      cursor.style.top = y + 'px';
+  
+      cursorInner.style.left = x + 'px';
+      cursorInner.style.top = y + 'px';
+    });
+  
+    const handleMouseEnter = function () {
+      cursor.style.width = '48px';
+      cursor.style.height = '48px';
+      cursorInner.style.width = '24px';
+      cursorInner.style.height = '24px';
+    };
+  
+    const handleMouseLeave = function () {
+      cursor.style.width = '32px';
+      cursor.style.height = '32px';
+      cursorInner.style.width = '16px';
+      cursorInner.style.height = '16px';
+    };
+  
+    const links = document.querySelectorAll('a, button');
+  
+    links.forEach(function (link) {
+      link.addEventListener('mouseenter', handleMouseEnter);
+      link.addEventListener('mouseleave', handleMouseLeave);
+    });
+  });
   
