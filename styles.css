@@ -2,7 +2,7 @@ body {
   font-family: 'Inter', sans-serif;
   --tw-bg-opacity: 1;
     background-color: rgb(15 23 42/var(--tw-bg-opacity));
-    margin: 0; /
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
