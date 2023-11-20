@@ -1,10 +1,10 @@
 body {
   font-family: 'Inter', sans-serif;
   --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42/var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(148 163 184/var(--tw-text-opacity));
-    margin: 0;
+  background-color: rgb(15 23 42/var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184/var(--tw-text-opacity));
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,7 +38,7 @@ body {
 
 #container {
   display: flex;
-  justify-content: flex-end; /* Change to flex-end */
+  justify-content: flex-end;
   padding: 0 100px;
   height: 100vh;
   overflow: auto;
@@ -61,16 +61,16 @@ body {
 }
 
 #left-namediv {
-  margin-top: 10vh
+  margin-top: 10vh;
 }
 
 #left-namediv a {
-  color: inherit; /* Use the default text color */
-  text-decoration: none; /* Remove underline */
+  color: inherit;
+  text-decoration: none;
 }
 
 #left-namediv a:hover {
-  color: inherit; /* Use the default text color on hover */
+  color: inherit;
 }
 
 #left-namediv h1 {
@@ -79,26 +79,25 @@ body {
   margin-bottom: 0em;
 }
 
-#left-namediv h2  {
+#left-namediv h2 {
   color: #ccd6f6;
   font-size: 2em;
-  margin-top: 0em
+  margin-top: 0em;
 }
-
 
 #right-jobdiv h2, #right-projectdiv h2 {
   color: #ccd6f6;
   font-size: 2em;
-  margin-top: 0em
+  margin-top: 0em;
 }
 
 #right-projectdiv a {
-  color: #ffffff; /* Set the color of the links */
-  text-decoration: underline; /* Add underline to the links */
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 #right-projectdiv a:hover {
-  color: #63a2c7; /* Set the color when hovering over the links */
+  color: #63a2c7;
 }
 
 .left-subdiv p, .right-subdiv p {
@@ -120,7 +119,7 @@ body {
 }
 
 #left-navdiv {
-  margin-top: 10vh
+  margin-top: 10vh;
 }
 
 #left-navdiv nav {
@@ -134,16 +133,16 @@ body {
   color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
   position: relative;
-  font-size: 1.5em; /* Adjust the font size as needed */
+  font-size: 1.5em;
 }
 
 #left-navdiv a.active {
-  color: #ccd6f6
+  color: #ccd6f6;
 }
 
 #left-navdiv nav a:hover::before,
 #left-navdiv a.active::before {
-  color: #64ffda; /* Change the color when hovering or active */
+  color: #64ffda;
 }
 
 #left-navdiv nav a:hover {
@@ -151,11 +150,16 @@ body {
 }
 
 #left-navdiv nav a::before {
-  font-family: 'Font Awesome'; /* Specify the Font Awesome font family */
-  content: '\f068'; /* Use the Font Awesome code for the minus icon */
+  font-family: 'Font Awesome';
+  content: '\f068';
   margin-right: 10px;
-  color: transparent; /* Set the initial color of the icon to transparent */
-  transition: color 0.3s ease; /* Add transition effect for color change */
+  color: transparent;
+  transition: color 0.3s ease;
+}
+
+/* Set the 'About' navigation item as active by default */
+#left-navdiv a:first-child.active::before {
+  color: #64ffda;
 }
 
 #left-socialdiv {
@@ -167,7 +171,7 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-direction: row; /* Change the direction to column to stack the social icons vertically */
+  flex-direction: row;
 }
 
 .social-icons li {
@@ -176,7 +180,7 @@ body {
 
 .social-icons a {
   --tw-text-opacity: 1;
-    color: rgb(148 163 184/var(--tw-text-opacity));
+  color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
 }
 
@@ -186,7 +190,7 @@ body {
 }
 
 .social-icons i {
-  font-size: 28px; /* Increase the font-size for larger icons */
+  font-size: 28px;
 }
 
 #right-jobdiv a {
@@ -216,12 +220,12 @@ body {
 .date-div {
   display: inline-block;
   position: absolute;
-  left: 0%
+  left: 0%;
 }
 
 .right-subdiv li {
   position: relative;
-  padding-left: 160px; /* Adjust this value as needed */
+  padding-left: 160px;
   padding-bottom: 5%;
 }
 
@@ -233,22 +237,22 @@ body {
 #right-jobdiv h3 {
   font-size: 1.5em;
   color: #64ffda;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 #right-jobdiv h4 {
   font-size: 1.2em;
   color: #ccd6f6;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 #right-jobdiv .dates {
   font-size: 1em;
   color: #a8b2d1;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .tech-buttons {
@@ -272,7 +276,6 @@ body {
 .tech-button:hover {
   background-color: #ccd6f6;
 }
-
 
 /* Mouse Overlay */
 :root {
