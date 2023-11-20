@@ -125,6 +125,7 @@ body {
   color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
   position: relative;
+  font-size: 2em; /* Adjust the font size as needed */
 }
 
 #left-navdiv a.active {
