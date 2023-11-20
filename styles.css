@@ -23,6 +23,10 @@ body {
     padding-left: 0;
   }
 
+  #right-jobdiv{
+    margin-top: 5vh;
+  }
+
   #right-jobdiv a {
     margin-top: 0.5em;
   }
