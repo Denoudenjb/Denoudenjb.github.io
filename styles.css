@@ -217,3 +217,25 @@ body {
 .tech-button:hover {
   background-color: #ccd6f6;
 }
+
+
+/* Flashlight Overlay */
+:root {
+  cursor: none;
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.1) 80%, /* Adjust the darkness level here (0.1 for a very minimal darkness) */
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
