@@ -246,8 +246,8 @@ body {
 
 .cursor {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: var(--cursorY);
+  left: var(--cursorX);
   width: 32px;
   height: 32px;
   border: 2px solid #64ffda;
@@ -256,7 +256,7 @@ body {
   pointer-events: none;
   z-index: 1000;
   mix-blend-mode: difference;
-  transition: width 0.2s, height 0.2s;
+  transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s;
 }
 
 .cursor-inner {
@@ -271,5 +271,5 @@ body {
   pointer-events: none;
   z-index: 1000;
   mix-blend-mode: difference;
-  transition: width 0.2s, height 0.2s;
+  transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s;
 }
