@@ -84,7 +84,7 @@ body {
   line-height: 1.5;
 }
 
-.left-subdiv nav a, #right-jobdiv a {
+#right-jobdiv a {
   color: #64ffda;
   text-decoration: none;
 }
