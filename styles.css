@@ -64,6 +64,15 @@ body {
   margin-top: 10vh
 }
 
+#left-namediv a {
+  color: inherit; /* Use the default text color */
+  text-decoration: none; /* Remove underline */
+}
+
+#left-namediv a:hover {
+  color: inherit; /* Use the default text color on hover */
+}
+
 #left-namediv h1 {
   color: #737a8f;
   font-size: 3em;
