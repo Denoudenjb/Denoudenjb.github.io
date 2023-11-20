@@ -32,7 +32,6 @@ body {
   }
 }
 
-
 #container {
   display: flex;
   justify-content: right;
@@ -124,7 +123,8 @@ body {
 }
 
 .social-icons a {
-  color: #64ffda;
+  --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
   text-decoration: none;
 }
 
