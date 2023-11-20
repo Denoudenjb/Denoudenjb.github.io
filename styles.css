@@ -120,7 +120,7 @@ body {
 }
 
 #left-socialdiv {
-  margin-top: auto; /* Set margin-top to auto to push it to the bottom */
+  margin-top: 5%;
   bottom: 0;
 }
 
