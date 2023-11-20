@@ -63,11 +63,17 @@ body {
 #left-namediv h1 {
   color: #737a8f;
   font-size: 3em;
-  font-weight: bold;
   margin-bottom: 0em;
 }
 
-#left-namediv h2, #right-jobdiv h2, #right-projectdiv h2 {
+#left-namediv h2  {
+  color: #ccd6f6;
+  font-size: 2em;
+  margin-top: 0em
+}
+
+
+#right-jobdiv h2, #right-projectdiv h2 {
   color: #ccd6f6;
   font-size: 2em;
   margin-top: 0em
