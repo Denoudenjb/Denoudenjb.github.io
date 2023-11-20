@@ -122,16 +122,18 @@ body {
 
 #left-socialdiv {
   margin-top: auto; /* Set margin-top to auto to push it to the bottom */
+  margin-bottom: 20px; /* Add margin-bottom to create space between the social icons and the bottom */
 }
+
 .social-icons {
   list-style: none;
   padding: 0;
   display: flex;
-  margin-top: 10%; /* Add margin-top for spacing */
+  flex-direction: row; /* Change the direction to column to stack the social icons vertically */
 }
 
 .social-icons li {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .social-icons a {
