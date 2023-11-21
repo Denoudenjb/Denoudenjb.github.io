@@ -23,14 +23,6 @@ body {
     padding-left: 0;
   }
 
-  #right-jobdiv {
-    margin-top: 10vh;
-  }
-
-  #right-jobdiv a {
-    margin-top: 0.5em;
-  }
-
   .tech-buttons {
     justify-content: center;
   }
