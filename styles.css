@@ -14,9 +14,17 @@ body {
     padding: 0 20px;
   }
 
-  #left-sidediv, #right-sidediv {
+  #left-sidediv{
     width: 100%;
     margin-top: 0px;
+    flex-direction: column;
+    display: block;
+  }
+
+  #right-sidediv {
+    width: 100%;
+    flex-direction: column;
+    display: block;
   }
 
   .right-subdiv li {
